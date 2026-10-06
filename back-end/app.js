@@ -85,10 +85,9 @@ app.get('/about', (req, res) => {
     title: 'About Us',
     imageUrl: 'https://github.com/jamiestuartv.png?size=400',
     paragraphs: [
-      "Hi, I'm Jamie! I'm a student at NYU in the Class of 2027, studying Computer Science alongside Business at NYU Stern. I like working right where those two worlds meet: building products and figuring out how to get them into people's hands.",
-      'I grew up in Bogotá, Colombia, and I speak English and Spanish natively. Moving to New York for school has been a big change, but the energy of the city fits the way I like to work.',
-      "Outside of class I'm a Growth Fellow at Nodi, an AI recruitment platform, and VP of ULABA at NYU. I've also interned in business development and growth at Cloud Science Labs and Five Iron Golf, and in finance and operations at Hupecol.",
-      "On the building side, I founded Budget Bud, an iOS budgeting app, and I'm always tinkering with side projects. I'm taking Agile Software Development & DevOps to sharpen how I work on real engineering teams.",
+      "Hi, I'm Jamie! I'm a senior at NYU studying CS and Business at NYU. I grew up in Bogotá, Colombia, and I speak English and Spanish natively. Moving to New York for school has been a big change, but the energy of the city fits the way I like to work.',
+      "I enjoy playing soccer and golf, as well as spending time with friends and family!",
+      "Looking forward to meeting and working with you all this semester!"
     ],
     status: 'all good',
   })
