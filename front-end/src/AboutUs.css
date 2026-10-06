@@ -1,0 +1,27 @@
+.AboutUs {
+  max-width: 680px;
+  margin: 0 auto;
+  padding: 0 16px;
+}
+
+.AboutUs h1 {
+  margin-bottom: 24px;
+}
+
+.AboutUs-photo {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+.AboutUs p {
+  text-align: left;
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.AboutUs-error {
+  color: #ff6b6b;
+}

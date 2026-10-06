@@ -78,5 +78,21 @@ app.post('/messages/save', async (req, res) => {
   }
 })
 
+// a route that returns the content for the About Us page as JSON
+app.get('/about', (req, res) => {
+  res.json({
+    name: 'Jamie',
+    title: 'About Us',
+    imageUrl: 'https://github.com/jamiestuartv.png?size=400',
+    paragraphs: [
+      "Hi, I'm Jamie! I'm a student at NYU in the Class of 2027, studying Computer Science alongside Business at NYU Stern. I like working right where those two worlds meet: building products and figuring out how to get them into people's hands.",
+      'I grew up in Bogotá, Colombia, and I speak English and Spanish natively. Moving to New York for school has been a big change, but the energy of the city fits the way I like to work.',
+      "Outside of class I'm a Growth Fellow at Nodi, an AI recruitment platform, and VP of ULABA at NYU. I've also interned in business development and growth at Cloud Science Labs and Five Iron Golf, and in finance and operations at Hupecol.",
+      "On the building side, I founded Budget Bud, an iOS budgeting app, and I'm always tinkering with side projects. I'm taking Agile Software Development & DevOps to sharpen how I work on real engineering teams.",
+    ],
+    status: 'all good',
+  })
+})
+
 // export the express app we created to make it available to other modules
 module.exports = app // CommonJS export style!
