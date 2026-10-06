@@ -11,6 +11,7 @@ app.use(cors()) // allow cross-origin resource sharing
 // use express's builtin body-parser middleware to parse any data included in a request
 app.use(express.json()) 
 app.use(express.urlencoded({ extended: true })) 
+app.use('/static', express.static('public'))
 
 // connect to database
 mongoose
@@ -83,7 +84,7 @@ app.get('/about', (req, res) => {
   res.json({
     name: 'Jamie',
     title: 'About Us',
-    imageUrl: 'https://github.com/user-attachments/assets/7cfdad9f-85b2-4282-a676-e5dbd733ec54',
+    imageUrl: 'http://localhost:5002/static/jamie.jpg',
     paragraphs: [
       "Hi, I'm Jamie! I'm a senior at NYU studying CS and Business at NYU. I grew up in Bogotá, Colombia, and I speak English and Spanish natively. Moving to New York for school has been a big change, but the energy of the city fits the way I like to work.",
       "I enjoy playing soccer and golf, as well as spending time with friends and family!",
