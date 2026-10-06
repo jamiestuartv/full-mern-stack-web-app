@@ -83,9 +83,9 @@ app.get('/about', (req, res) => {
   res.json({
     name: 'Jamie',
     title: 'About Us',
-    imageUrl: 'https://github.com/jamiestuartv.png?size=400',
+    imageUrl: 'https://github.com/user-attachments/assets/7cfdad9f-85b2-4282-a676-e5dbd733ec54',
     paragraphs: [
-      "Hi, I'm Jamie! I'm a senior at NYU studying CS and Business at NYU. I grew up in Bogotá, Colombia, and I speak English and Spanish natively. Moving to New York for school has been a big change, but the energy of the city fits the way I like to work.',
+      "Hi, I'm Jamie! I'm a senior at NYU studying CS and Business at NYU. I grew up in Bogotá, Colombia, and I speak English and Spanish natively. Moving to New York for school has been a big change, but the energy of the city fits the way I like to work.",
       "I enjoy playing soccer and golf, as well as spending time with friends and family!",
       "Looking forward to meeting and working with you all this semester!"
     ],
